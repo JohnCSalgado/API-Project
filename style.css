@@ -31,10 +31,6 @@ h1 {
   text-align: center;
 }
 
-.card:hover {
-    animation: bounce 0.5s linear;
-}
-
 .card-title {
     text-transform: capitalize;
     margin-bottom: 0px;
@@ -67,4 +63,17 @@ button {
     transition: 200ms all ease-in-out;
     outline-style: solid;
     outline-color: transparent;
+}
+
+form {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
 }
